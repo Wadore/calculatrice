@@ -1,0 +1,96 @@
+main{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    width: 500px;
+    height: 660px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 2%;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.result{
+    height: 40px;
+    width: 80%;
+    box-shadow: 1px 1px 8px #940707;
+    background-color: rgb(89, 202, 181);
+    margin-left: 10%;
+    text-align: right;
+    font-size: 25px;
+
+}
+.bouton{
+    width: 450px;
+    height: 470px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 18% 18% 18% 18% 18%;
+    row-gap: 1%;
+    column-gap: 1%;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.bouton_calculatrice{
+
+    box-shadow: 1px 1px 8px #940707;
+    text-align: center;
+    font-size: 25px;
+
+}
+.bouton :hover {
+    background-color: gray
+}
+#zero{
+    grid-area: 5/1/5/3;
+}
+#CE,#C{
+   color: #940707;
+}
+#egal{
+    color: blue;
+}
+.memoire{
+    height: 40px;
+    width: 80%;
+    box-shadow: 1px 1px 8px #940707;
+    background-color: rgb(89, 202, 181);
+    margin-left: 10%;
+    text-align: right;
+    font-size: 25px;
+
+}
+.historique {
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    width: 180px;
+    height: 330px;
+    top : 193px;
+    left : 40px;
+    display:none
+}
+.show{
+    display: block;
+}
+.reshisto{
+    width: 96%;
+    position: relative;
+    top: 8%;
+    left: 2%;
+    height: 80%;
+    background-color: rgb(89, 202, 181);
+    overflow: hidden;
+    white-space: pre;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    
+}
+.close{
+    margin: 3px;
+
+}
+
+
